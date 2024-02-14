@@ -1,0 +1,17 @@
+.contact{
+    min-height: 50vh;
+    background: url(../../assets/img/contact.jpg)
+    right top no-repeat;
+    background-size: cover;
+    color: snow;
+    font-family: lato;
+    border: 5px solid wheat;
+    opacity: 0.8;
+    
+}
+.text-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}

@@ -1,0 +1,28 @@
+
+.tools{
+    min-height: 60vh;
+    color: snow;
+    background: linear-gradient(-200deg, 
+    rgba(0,0,0,1) 55%,
+     #6E172D 75%);
+}
+.card-tool{
+    transition: 0.7s ease;
+    border-radius: 10px;
+}
+.card-tool:hover{
+cursor: pointer;
+background-color: #6e172da6;
+transform: scale(1.2);
+}
+.card-tool h1,
+.card-tool h2{
+    text-align: center;
+    margin: 15px 0;
+}
+
+.tool-icon{
+     font-size: 40px !important;
+     color: white;
+
+}

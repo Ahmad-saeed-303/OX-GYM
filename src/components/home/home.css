@@ -1,0 +1,44 @@
+.home{
+      background: rgb(52,52,54);
+      background: linear-gradient(-200deg, 
+      #6E172D 35%,
+       rgba(0,0,0,1) 65%) !important;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-home{
+    min-height: 100vh;
+    background-image: url(../../assets/img/pagehome.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+
+.title-home{
+    font-size: 75px;   
+}
+.title-home:hover{
+    cursor: pointer;
+    text-shadow: 0 0 40px #6E172D,0 0 62px #6E172D; 
+
+}
+.title-home-one{
+    font-size: 50px;
+}
+.text{
+    font-size: 20px;
+    color: snow;
+    font-family: lato;
+   
+ 
+}
+.text h2{
+    margin: 20px 15px;
+}
+/* component Button  */

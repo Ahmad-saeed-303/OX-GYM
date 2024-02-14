@@ -1,0 +1,64 @@
+
+.about{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: lato;
+    background: linear-gradient(-200deg, 
+	#6E172D 35%,
+     rgba(0,0,0,1) 75%);
+    color: snow;
+ 
+}
+.text-about{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: rgb(52,52,54);
+    background: linear-gradient(360deg, 
+    rgba(52,52,54,1) 15%,
+     rgba(0,0,0,1) 55%); */
+}
+.text-about h1{
+    margin-bottom: 25px ;
+}
+.img-about{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+
+}
+.btn-about-one{
+    padding: 0.6em 1em;
+    border: 4px solid #6E172D;
+    margin-left: 10px;
+    transition: ease-in-out 0.3s;
+    background-color: transparent;
+    color: #6E172D;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.btn-about-one:hover{
+    transform: scale(1.2) rotate(10deg);
+    background-color: #6E172D;
+    color: white;
+}
+.btn-about-tow{
+    padding: 0.6em 1em;
+    border: 4px solid snow;
+    background-color: #6E172D;
+    margin-left: 10px;
+    transition: ease-in-out 0.3s;
+    
+    color: snow;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.btn-about-tow:hover{
+    transform: scale(1.2) rotate(10deg);
+    background-color: transparent;
+    color: white;
+}

@@ -1,0 +1,38 @@
+.section{
+    min-height: 60vh;
+    color: snow;
+    background: linear-gradient(-200deg, 
+	#6E172D 35%,
+     rgba(0,0,0,1) 75%);
+}
+.sec-text{
+    margin-top: 20px;
+
+}
+.sec-text h1{
+    font-size: 40px;
+    font-family: lato;
+    margin-left: 10px;
+}
+.sec-text b{
+    color: #ee1c50;
+}
+.sec-list ul{
+    margin-top: 15px;
+}
+.sec-list li{
+    list-style: none;
+    transition: 0.7s ease;
+
+}
+.sec-list li:hover{
+    cursor: pointer;
+    margin-left: 10px;
+}
+.sec-img{
+    width: 450px;
+    height: 400px;
+    opacity: 0.6;
+    margin-top: 40px;
+    border-radius: 10px;
+}

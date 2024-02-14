@@ -1,0 +1,23 @@
+.navbar{
+    background: transparent !important;
+    color: snow !important;
+   font-family: lato;
+}
+.navbar-brand,
+.nav-link{
+    color: white !important;
+}
+.navbar-brand {
+    font-size: 50px;
+}
+.icon-nav{
+    font-size: 70px;
+    transition: 1.5s ease;
+}
+.icon-nav:hover{
+    cursor: pointer;
+   transform: scale(1.2);
+}
+.nav-link{
+    font-size: 25px;
+}

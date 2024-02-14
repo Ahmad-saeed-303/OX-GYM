@@ -1,0 +1,59 @@
+
+.coach{
+    min-height: 50vh;
+    color: snow !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(-200deg, 
+	#6E172D 35%,
+     rgba(0,0,0,1) 65%) !important;
+}
+.title-coach{
+    text-align: center;
+    justify-content: center;
+    margin: 10px 0;
+    font-family: lato;
+    font-size: 60px;
+    transition: 0.7s ease;
+    color: snow;
+    
+}
+.title-coach:hover{
+    cursor: pointer;
+    text-shadow: 0 0 50px #6E172D,0 0 70px #6E172D;
+}
+.coach-one{
+   width: 100%;
+   max-height: 150px !important;
+}
+.card-coach{
+    margin: 50px 0 ;
+    color: snow !important;
+    background: linear-gradient(-200deg, 
+	#6E172D 15%,
+     rgba(0,0,0,1) 75%) !important;
+     border: 1px solid wheat !important;
+   transition: 0.8s ease;
+  
+}
+.card-coach:hover{
+    cursor: pointer;
+    transform: scale(1.1) ;
+}
+.card-coach button{
+    color: snow;
+    border: 2px solid #6E172D ;
+    margin-bottom: 13px ;
+    margin-left: 10px ;
+    min-height: 35px !important;
+}
+/* rating */
+.rating{
+    background-color: snow;
+    width: 120px;
+    padding: 3px 0;
+    min-height: 35px;
+    margin: -5px 5px 5px 5px  ;
+    border-radius: 5px;
+}
